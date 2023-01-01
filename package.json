@@ -1,0 +1,25 @@
+{
+  "name": "ts-2022-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "build:run": "npm run build && node dist/main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinidevlearn/ts-2022-11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srinidevlearn/ts-2022-11/issues"
+  },
+  "homepage": "https://github.com/srinidevlearn/ts-2022-11#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
