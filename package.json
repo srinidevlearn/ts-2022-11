@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "tsc --build --clean",
     "build": "tsc --build",
-    "build:run": "npm run build && node dist/main.js"
+    "build:run": "npm run build && node dist/main.js",
+    "watch:run": "tsc --watch && node dist/main.js"
 
   },
   "repository": {
